@@ -11,6 +11,6 @@ class Controller extends BaseController
 {
     public function homePage()
     {
-        return view('home_Page');
+        return view ('homePage');
     }
 }
