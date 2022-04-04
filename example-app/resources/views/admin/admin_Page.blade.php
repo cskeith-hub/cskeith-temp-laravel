@@ -1,5 +1,7 @@
 @extends('layouts/index')
 
 @section('body')
-    <p>Hello World</p>    
+    <h1>This is the Admin ENTRY</h1> 
+    <br>
+
 @endsection
