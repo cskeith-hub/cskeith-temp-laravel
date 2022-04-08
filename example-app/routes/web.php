@@ -15,5 +15,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [Controller::class, 'homePage']);
-Route::get('/adminHub', [Admin_Controller::class, 'adminPage']);
+Route::get('/', [Controller::class, 'homePage'])->name('homePage');
+
